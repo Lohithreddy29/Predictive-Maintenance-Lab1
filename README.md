@@ -1,6 +1,6 @@
 CSCN8010 Practical Lab 1: Predictive Maintenance with Linear Regression-Based Alerts
 
-Student: Lohith Reddy Danda
+# Student: Lohith Reddy Danda
 
 ## Project Overview
 
@@ -34,11 +34,11 @@ Student: Lohith Reddy Danda
 |  thresholds.py | MinC, MaxC, T threshold definitions |
 
 
-#Create and activate a virtual environment:python -m venv venv venv\Scripts\activate  
-# Windows source venv/bin/activate   # Mac/Linux
 
-#
-Install dependencies: pip install -r requirements.txt
+# Create and activate a virtual environment:python -m venv venv venv\Scripts\activate  
+#Windows source venv/bin/activate   # Mac/Linux
+
+# Install dependencies: pip install -r requirements.txt
 
 
 The file includes:
@@ -55,7 +55,7 @@ matplotlib
 
 ---
 
-##  How to Run the Notebook
+#  How to Run the Notebook
 
 Start Jupyter:jupyter notebook
 
@@ -75,7 +75,7 @@ Run all cells in order to reproduce:
 
 ---
 
-##  SQL Database Setup (Neon)
+#  SQL Database Setup (Neon)
 
 Create a `.env` file in the project root:
 Run all cells in order to reproduce:
@@ -91,7 +91,7 @@ Run all cells in order to reproduce:
 
 ---
 
-##  SQL Database Setup (Neon)
+#  SQL Database Setup (Neon)
 
 Create a `.env` file in the project root:
 DB_USER=neondb_owner 
@@ -111,7 +111,7 @@ import os
 load_dotenv()'''
 The notebook will automatically connect to your Neon PostgreSQL database.
 
-#Project Workflow
+# Project Workflow
 - Load raw robot current data
 - Clean and preprocess
 - Fit linear regression models
@@ -123,7 +123,7 @@ The notebook will automatically connect to your Neon PostgreSQL database.
 - Store and load data from Neon SQL
 - Generate visualizations
 
- #Results
+ # Results
 - Regression models successfully captured expected current behavior
 - Residuals revealed abnormal patterns
 - Alerts and errors were detected correctly
