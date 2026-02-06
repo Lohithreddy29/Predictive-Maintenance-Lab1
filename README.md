@@ -15,24 +15,23 @@ Student: Lohith Reddy Danda
 - Cloud database integration using Neon PostgreSQL
 
 ## Project Structure
-│── data/
-│   ├── alerts## 📁 Project Structure (Table View)
+
 
 | Path / File | Description |
 |------------|-------------|
 | **data/** | Folder containing all datasets |
-| ├── alerts_log.csv | Logged alerts from streaming simulation |
-| ├── RMBR4-2_export_test.csv | Raw robot test dataset |
-| ├── test_data_synthetic.csv | Synthetic test dataset |
+| alerts_log.csv | Logged alerts from streaming simulation |
+| RMBR4-2_export_test.csv | Raw robot test dataset |
+| test_data_synthetic.csv | Synthetic test dataset |
 | **notebooks/** | Jupyter notebooks for analysis |
-| └── analysis.ipynb | Full pipeline: cleaning → regression → alerts → SQL → plots |
+| analysis.ipynb | Full pipeline: cleaning → regression → alerts → SQL → plots |
 | **src/** | Source code modules |
-| ├── __init__.py | Package initializer |
-| ├── alerts.py | Alert & error classification logic |
-| ├── plots.py | Visualization functions |
-| ├── regression.py | Linear regression + residual calculations |
-| ├── streaming_sim.py | Real‑time streaming simulation |
-| ├── thresholds.py | MinC, MaxC, T threshold definitions |
+|  __init__.py | Package initializer |
+|  alerts.py | Alert & error classification logic |
+|  plots.py | Visualization functions |
+| regression.py | Linear regression + residual calculations |
+| streaming_sim.py | Real‑time streaming simulation |
+|  thresholds.py | MinC, MaxC, T threshold definitions |
 
 
 #Create and activate a virtual environment:python -m venv venv venv\Scripts\activate  
