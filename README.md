@@ -81,9 +81,9 @@ Run all cells in order to reproduce:
 
 
 Create a `.env` file in the project root:
-DB_USER=neondb_owner 
-DB_PASS=your_password_here 
-DB_HOST=your_host_here
+DB_USER=neondb_owner
+DB_PASS=npg_sKSDrw13nUGf
+DB_HOST=ep-patient-dream-ai8yymm5-pooler.c-4.us-east-1.aws.neon.tech
 DB_NAME=neondb
 
 
