@@ -81,7 +81,15 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-Includes: pandas, numpy, matplotlib, scikit‑learn, sqlalchemy, psycopg2‑binary, jupyter, python‑dotenv
+Includes:
+pandas
+numpy 
+matplotlib
+scikit‑learn
+sqlalchemy
+psycopg2‑binary
+jupyter
+python‑dotenv
 
 ---
 
